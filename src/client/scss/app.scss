@@ -1,5 +1,16 @@
 $theme-colors: (
-    'primary': #0091ea //Covalence Blue!  :D
+    'primary': #0091ea,//Covalence Blue!  :D
+    'secondary': #fff0bf,
+    "info": #80b1cf
 );
+
+body {
+    background-color: darkgrey !important;
+}
+
+#chirp-msg-input {
+    height: fit-content !important;
+    
+}
 
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
